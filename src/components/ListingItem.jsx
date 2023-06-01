@@ -4,6 +4,7 @@ import bedIcon from "../assets/svg/bedIcon.svg";
 import bathtubIcon from "../assets/svg/bathtubIcon.svg";
 
 export default function ListingItem({ listing, id, onDelete }) {
+console.log(listing);
   return (
     <li className="categoryListing">
       <Link
@@ -11,7 +12,7 @@ export default function ListingItem({ listing, id, onDelete }) {
         className="categoryListingLink"
       >
         <img
-          src={listing.imageUrls[0]}
+          src={listing.imageUrls}
           alt={listing.name}
           className="categoryListingImg"
         />
