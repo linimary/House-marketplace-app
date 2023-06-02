@@ -12,7 +12,7 @@ console.log(listing);
         className="categoryListingLink"
       >
         <img
-          src={listing.imageUrls}
+          src={listing.imgUrls}
           alt={listing.name}
           className="categoryListingImg"
         />
