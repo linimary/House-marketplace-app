@@ -229,7 +229,7 @@ button {
 
 .signInBar,
 .signUpBar {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,7 +277,7 @@ button {
 }
 
 .socialLogin {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
